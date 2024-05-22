@@ -8,6 +8,8 @@ void showArray(int *array);
 int findMaxValue(int *array);
 int findMinValue(int *array);
 float averageValue(int *array);
+void fileEnter(int array[]);
+void fileReading(int array[]);
 
 
 

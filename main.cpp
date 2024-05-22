@@ -6,6 +6,8 @@ void menu(void){
     printf("3. Minimum value of the array\n");
     printf("4. Maximum value of the array\n");
     printf("5. Average value of the array\n");
+    printf("6. Enter to file\n");
+    printf("7. Read the file\n");
     printf("0. END\n");
 }
 
@@ -39,6 +41,12 @@ int main() {
             case 5:
                 averageValue(array);
                 printf("Average value = %f\n", average);
+                break;
+            case 6:
+                fileEnter(array);
+                break;
+            case 7:
+                fileReading(array);
                 break;
             default:
                 printf("Wrong option, choose the right one\n");
