@@ -1,0 +1,9 @@
+
+
+#ifndef SIMPLEARRAY_ARRAY_H
+#define SIMPLEARRAY_ARRAY_H
+#define SIZE 10
+
+
+
+#endif //SIMPLEARRAY_ARRAY_H
