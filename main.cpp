@@ -13,6 +13,9 @@ int main() {
     int array[SIZE]= {1,2,3,4,5,6,7,8,9,10};
     printf("simple array..\n");
     int option = 0;
+    int minimum = findMinValue(array);
+    int maximum = findMaxValue(array);
+    float average = averageValue(array);
     do {
         menu();
         scanf("%d",&option);
@@ -20,14 +23,22 @@ int main() {
             case  0:
                 break;
             case 1:
+                enterValue(array);
                 break;
             case 2:
+                showArray(array);
                 break;
             case 3:
+                findMinValue(array);
+                printf("minimum value = %d\n",minimum);
                 break;
             case 4:
+                findMaxValue(array);
+                printf("maximum value = %d\n",maximum);
                 break;
             case 5:
+                averageValue(array);
+                printf("Average value = %f\n", average);
                 break;
             default:
                 printf("Wrong option, choose the right one\n");
