@@ -4,13 +4,13 @@ FILE * fptr;
 void enterValue(int *array){
     printf("Enter values to array\n");
     for (int i = 0; i < SIZE; ++i) {
-        printf("*(array + %d) = ", i);
+        printf("array %d = ", i);
         scanf("%d", &*(array + i));
     }
 }
 void showArray(int *array){
     for (int i = 0; i < SIZE; i++) {
-        printf("*(array + %d) = %d\n",i, *(array + i));
+        printf("array %d = %d\n",i, *(array + i));
 
     }
 }
